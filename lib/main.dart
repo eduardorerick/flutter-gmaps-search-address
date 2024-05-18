@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: const MyHomePage(title: ''),
     );
   }
 }
@@ -73,20 +73,20 @@ class _MyHomePageState extends State<MyHomePage> {
           children: <Widget>[
             Center(
                 child: Padding(
-              padding: const EdgeInsets.all(24),
+              padding: const EdgeInsets.all(21),
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   SizedBox(
-                      width: 500,
+                      width: 400,
                       child: Row(
                           mainAxisAlignment: MainAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.center,
                           children: [
                             SizedBox(
                                 height: 50,
-                                width: 300,
+                                width: 240,
                                 child: TextField(
                                   controller: address,
                                   decoration: const InputDecoration(
@@ -96,7 +96,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                             bottomRight: Radius.circular(0),
                                             topLeft: Radius.circular(10),
                                             topRight: Radius.circular(0))),
-                                    labelText: 'Procure um país aqui...',
+                                    labelText: 'Procure um endereço aqui...',
                                   ),
                                 )),
                             SizedBox(
@@ -122,7 +122,7 @@ class _MyHomePageState extends State<MyHomePage> {
             )),
             SizedBox(
               height: 400,
-              width: 400,
+              width: 340,
               child: MapSample(
                 controller: controller,
               ),
