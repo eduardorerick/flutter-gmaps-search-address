@@ -23,10 +23,8 @@ Projeto feito para praticar o framework Flutter. É um aplicativo desenvolvido e
 
 
 ### Web 
-
-<img width="1507" alt="image" src="https://github.com/eduardorerick/flutter-gmaps-search-address/assets/82004348/1c7d3141-201e-48f2-8c62-899217db26e6">
-<img width="1507" alt="image" src="https://github.com/eduardorerick/flutter-gmaps-search-address/assets/82004348/907dd027-8726-499a-aaf3-e29e8c0c873e">
+<img width="1624" alt="image" src="https://github.com/eduardorerick/flutter-gmaps-search-address/assets/82004348/d6f16e8e-3082-42d9-bd7d-618759be72ed">
 
 ## ios
 
-<img width="506" alt="image" src="https://github.com/eduardorerick/flutter-gmaps-search-address/assets/82004348/4899acc0-d5f0-4cc5-9175-8e11ee489777">
+<img width="506" alt="image" src="https://github.com/eduardorerick/flutter-gmaps-search-address/assets/82004348/11a0dbb6-c379-4afb-917c-58ab7aac1af3">
